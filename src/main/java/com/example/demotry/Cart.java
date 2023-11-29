@@ -6,12 +6,9 @@ import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-
-
-public class Cart extends Application{
-
+public class Cart extends Application {
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 
     @Override
@@ -21,10 +18,5 @@ public class Cart extends Application{
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();
-
-
-
     }
-
-
 }
